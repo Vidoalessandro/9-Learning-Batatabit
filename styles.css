@@ -171,7 +171,7 @@ main {
 .main-currency-table .currency-table--title {
     text-align: start;
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 65px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -182,7 +182,7 @@ main {
 .main-commissions-table .commissions-table--title {
     text-align: start;
     margin-left: 40px;
-    margin-top: 45px;
+    margin-top: 65px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -422,8 +422,8 @@ main {
 }
 
 .bitcoin-img-container h2 {
-    padding-top: 60px;
-    font-size: 2.4rem;
+    padding-top: 170px;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
@@ -464,9 +464,11 @@ main {
 .plans-container--slider {
     display: flex;
     height: 316px;
+    width: auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    padding-left: 20px;
 }
 
 .principal-plans-container--card,
